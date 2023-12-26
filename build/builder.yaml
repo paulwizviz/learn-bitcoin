@@ -1,0 +1,12 @@
+version: '3.4'
+
+services:
+
+  bitcoind:
+    build:
+      context: ../
+      dockerfile: ./build/bitcoind.dockerfile
+      args:
+        BTC_VER: "${BTC_VER}"
+    image: ${BITCOIND_IMAGE:-learn-bitcoin/btccore:current}
+  
