@@ -90,3 +90,4 @@ Please refer to [documentation](https://developer.bitcoin.org/reference/rpc/inde
 
 * [Bitcoin Developer - P2P Network](https://developer.bitcoin.org/reference/p2p_networking.html)
 * [Bitcoin Developer - Testing Applications](https://developer.bitcoin.org/examples/testing.html)
+* [Creating a Local Bitcoin Testnet / Regtest - Programming Bitcoin](https://www.youtube.com/watch?v=LLZNvl90PC0)
