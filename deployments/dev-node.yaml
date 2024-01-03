@@ -1,11 +1,9 @@
 version: '3'
 services:
-  bitcoind-miner:
+  bitcoind-regtest:
     image: ruimarinho/bitcoin-core:latest
-    container_name: bitcoin-miner
+    container_name: bitcoin-regtest
     ports:
-      - "18444:18444"
-    command:
-      -regtest
-      -rpcuser=username
-      -rpcpassword=password
+      - "18443:18443"
+      - "18444:18444" 
+    command: ["bitcoind","-regtest=1", "-printtoconsole","-rpcuser=username","-rpcpassword=password"]
