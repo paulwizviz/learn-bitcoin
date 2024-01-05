@@ -1,6 +1,6 @@
 # Overview
 
-This project contains information about Bitcoins.
+My brain dump on all things Bitcoin.
 
 ## Topics
 
@@ -8,3 +8,6 @@ This project contains information about Bitcoins.
 * [Internals](./docs/internals.md)
 * [Lighting network](./docs/lightning.md)
 
+## Copyright
+
+Please respect the copyright of contributors here and those of reference materials
